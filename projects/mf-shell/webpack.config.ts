@@ -19,6 +19,10 @@ export default (config: Configuration, options: CustomWebpackBrowserSchema, targ
         '@angular/platform-browser': {singleton: true, strictVersion: true},
         '@angular/router': {singleton: true, strictVersion: true},
         rxjs: {singleton: true, strictVersion: true},
+        '@progress/kendo-angular-buttons': {singleton: true, strictVersion: true},
+        '@progress/kendo-angular-common': {singleton: true, strictVersion: true},
+        '@progress/kendo-angular-l10n': {singleton: true, strictVersion: true},
+        '@progress/kendo-angular-popup': {singleton: true, strictVersion: true},
       }
     })
   );
